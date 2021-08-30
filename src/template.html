@@ -1,0 +1,276 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Ashok Kumar| Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Ashok Kumar</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                My name is <bold>Ashok Kumar</bold> and I am from Greater Noida West,Uttar Pradesh-201301. I have done my schooling from Ghaziabad. I have completed my 10th in 2016 and 12th in 2018 from CBSE board and currently pursuing B.Tech in Computer Science Engineering from Sunderdeep Engineering College,Ghaziabad affiliated by Dr.APJ Abdul Kalam Techanical University, Lucknow Uttar Pradesh.
+              </p>
+              <p class="about-wrapper__info-text">
+               I like to code on daily basis. And my ambition is to be a good Developer.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://drive.google.com/file/d/1kTbX9sHO8VvcjEv9iknBjjoOyrwjEwhE/view?usp=sharing"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Personal Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">robofriends</h3>
+                <div>
+                  <p class="mb-4">
+                    An app that allows to search through robots fetched in real-time with users. Users & Robots being fetched via API call, Usage of Redux store Tech used HTML/CSS,React & Redux.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://ashok148.github.io/roboFriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ashok148/robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/logo.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Clothing Prediction Web Application</h3>
+                <div>
+                  <p class="mb-4">
+                    Build a Deep Learning modal which takes grayscale images as input and
+                    predict fashion tag of that image as output. Technologies used Convolution Neural Network (CNNs) ,flask. Dataset used Fashion MNIST for grayscale images.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/ashok148/Clothing_Prediction_flask_Web_App"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ashok148/Clothing_Prediction_flask_Web_App"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/logo2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">[ashokkumar56624@gmail.com]</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:ashokkumar56624@email.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <h2 style="color: #fafafa;">Connect With Me On </h2>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://twitter.com/Ashokku48248241" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.instagram.com/ashok_kumar70/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/ashok-kumar-b58606195/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/ashok148" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <p class="footer__text">
+          © 2021 - All Right Reserved
+          <!-- <a rel="noreferrer" href="" target="_blank"
+            >Jacobo Martínez</a
+          > -->
+        </p>
+
+        <!-- Remove this paragraph once you setup your custom portfolio -->
+        <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/ashok148"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/ashok148"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobidev/simplefolio on GitHub"
+            >Star</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
